@@ -89,7 +89,6 @@ public class Main {
 				if (b == false) {
 					System.out.println("게시글이 없습니다.");
 				}
-
 			}
 			else {
 				System.out.println("존재하지 않는 명령어입니다.");

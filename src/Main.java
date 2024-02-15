@@ -23,11 +23,10 @@ public class Main {
 					System.out.println("게시글이 없습니다.");
 				}
 				else {
+					System.out.println("번호 | 제목 | 내용 | 날짜 | 조회수");
 					for(int i =0; i<post.size(); i++){
-						System.out.println(post.get(i).id+"번째글 id : " + post.get(i).id);
-						System.out.println(post.get(i).id+"번째글 제목 : " + post.get(i).title);
-						System.out.println(post.get(i).id +"번째글 내용 : " + post.get(i).content);
-						System.out.println(post.get(i).id+"번째글 시간 : " + post.get(i).date);
+						System.out.println(post.get(i).id + " | "+  post.get(i).title + " | " + post.get(i).content + " | " + post.get(i).date +" | " +post.get(i).views);
+
 					}
 				}
 			}
